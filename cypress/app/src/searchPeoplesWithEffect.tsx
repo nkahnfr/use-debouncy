@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { usePeoples } from './usePeoples';
-import useDebounceEffect from '../../../lib/effect';
+import useDebounceEffect from '../../../src/effect';
 
 export const SearchPeoplesWithEffect = (): JSX.Element => {
   const [value, setValue] = useState('');

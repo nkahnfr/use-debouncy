@@ -1,7 +1,7 @@
 import React from 'react';
 
 import { usePeoples } from './usePeoples';
-import useDebounceFn from '../../../lib/fn';
+import useDebounceFn from '../../../src/fn';
 
 export const SearchPeoplesWithFn = (): JSX.Element => {
   const { fetchPeoples, peoples } = usePeoples();
